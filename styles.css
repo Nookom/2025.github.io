@@ -34,6 +34,7 @@ h1 {
     justify-content: center;
     gap: 20px;
     margin-top: 30px;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
 
 img {
@@ -56,4 +57,34 @@ iframe {
     border: 2px solid #00f5d4;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 255, 212, 0.8);
+}
+
+@media (max-width: 768px) { /* For tablets and mobile devices */
+    h1 {
+        font-size: 60px; /* Make title smaller on mobile */
+        margin-top: 50px; /* Reduce margin for mobile */
+    }
+
+    .message {
+        font-size: 16px; /* Slightly smaller message on mobile */
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    iframe {
+        width: 100%; /* Make video width 100% of container on mobile */
+        height: auto; /* Adjust height to maintain aspect ratio */
+        margin-top: 20px;
+    }
+
+    .images {
+        flex-direction: column; /* Stack images vertically on mobile */
+        align-items: center; /* Center align images */
+        gap: 10px; /* Reduce space between images on mobile */
+    }
+
+    img {
+        width: 3in; /* Slightly larger images on mobile */
+        height: 3in;
+    }
 }
