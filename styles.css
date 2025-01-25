@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #0e1a47, #2f4f91); /* Futuristic gradient */
+    color: #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 120px; /* Big title */
+    color: #00f5d4; /* Neon light color */
+    margin-top: 100px;
+    text-shadow: 0 0 10px rgba(0, 255, 212, 0.8), 0 0 20px rgba(0, 255, 212, 0.6), 0 0 30px rgba(0, 255, 212, 0.4); /* Glowing effect */
+    letter-spacing: 4px;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+img {
+    width: 2in;
+    height: 2in;
+    margin: 10px;
+    border: 2px solid #00f5d4; /* Neon border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 212, 0.8); /* Glowing image border */
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+img:hover {
+    transform: scale(1.1); /* Slightly enlarge the image on hover */
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+    margin-top: 30px;
+    border: 2px solid #00f5d4;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 212, 0.8);
+}
+
+.content div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
