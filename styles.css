@@ -17,6 +17,14 @@ h1 {
     letter-spacing: 4px;
 }
 
+.message {
+    font-size: 18px; /* Smaller message font size */
+    color: #f1f1f1;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
 .content {
     margin-top: 50px;
 }
